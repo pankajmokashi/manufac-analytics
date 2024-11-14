@@ -4,6 +4,8 @@ import TableReviews from "./Table";
 import classes from "./Table.module.css";
 
 const CropAveragesTable = ({ data }: { data: CropAverages[] }) => {
+
+  // columns for Crop Averages Table
   const columns = [
     "Crop",
     "Average Yield of the Crop between 1950-2020 ",

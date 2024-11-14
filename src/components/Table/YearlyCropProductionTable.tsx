@@ -8,6 +8,7 @@ const YearlyCropProductionTable = ({
 }: {
   data: YearlyCropProduction[];
 }) => {
+  // columns for Crop Production Table
   const columns = [
     "Year",
     "Crop with Maximum Production in that Year",

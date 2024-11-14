@@ -1,5 +1,6 @@
 import { CropData, YearlyCropProduction, CropAverages } from "./type";
 
+// function to generate data for Crop Production Table
 export function getMaxMinCropProduction(
   crops: CropData[]
 ): YearlyCropProduction[] {
@@ -65,6 +66,7 @@ export function getMaxMinCropProduction(
   return results;
 }
 
+// function to generate data for Crop Averages Table
 export function getAverageCropData(crops: CropData[]): CropAverages[] {
   const result: CropAverages[] = [];
   const groupedByCrop: {

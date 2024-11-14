@@ -16,13 +16,14 @@ interface OutputData {
   areaUnderCultivation: number;
 }
 
+// function to edit dataset keys
 export const transformData = (input: InputData[]): OutputData[] => {
   return input.map((data) => {
     const year = data.Year.split(",").pop()?.trim().slice(-4) || "";
 
     return {
       country: data.Country,
-      year: year, // Extracting year part if the year is in "Financial Year (Apr - Mar)" format
+      year: year,
       cropName: data["Crop Name"],
       cropProduction:
         data["Crop Production (UOM:t(Tonnes))"] === ""

@@ -12,8 +12,13 @@ import YearlyCropProductionTable from "./components/Table/YearlyCropProductionTa
 import CropAveragesTable from "./components/Table/CropAveragesTable";
 
 export default function App() {
+  // edit dataset keys
   const transformedData = transformData(data);
+
+  // get data for Crop Production Table
   const maxMinCropProductionData = getMaxMinCropProduction(transformedData);
+
+  // get data for Crop Averages Table
   const averageCropData = getAverageCropData(transformedData);
 
   return (
