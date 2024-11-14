@@ -1,9 +1,13 @@
 # Frontend Data Analysis Task 
 
-A data analysis frontend application built with Vite, React, TypeScript, and Mantine. This project features two main tables:
+A data analysis frontend application built with Vite, React, TypeScript, and Mantine.
 
+- [Frontend Data Analysis Task](https://data-analysis-manufac.netlify.app/) - Live Link
 - [Indian Agriculture dataset](https://drive.google.com/file/d/1p1UW__9DvRuscA01kUFTMz_CUMKvTbyM/view) - Dataset for project
 - [Vite Template](https://github.com/mantinedev/vite-min-template) - Base template for project setup
+
+This project features two main tables:
+
 - **Crop Production Table**: Displays maximum and minimum production data for various crops.
 - **Crop Averages Table**: Shows average production data for different crops.
 
