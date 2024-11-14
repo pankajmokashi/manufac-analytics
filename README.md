@@ -2,6 +2,8 @@
 
 A data analysis frontend application built with Vite, React, TypeScript, and Mantine. This project features two main tables:
 
+- [Indian Agriculture dataset](https://drive.google.com/file/d/1p1UW__9DvRuscA01kUFTMz_CUMKvTbyM/view) - Dataset for project
+- [Vite Template](https://github.com/mantinedev/vite-min-template) - Base template for project setup
 - **Crop Production Table**: Displays maximum and minimum production data for various crops.
 - **Crop Averages Table**: Shows average production data for different crops.
 
@@ -16,7 +18,6 @@ A data analysis frontend application built with Vite, React, TypeScript, and Man
 - **TypeScript** for static type checking
 - **Vite** for fast builds and hot-reloading during development
 - Crop production and average data displayed in organized tables
-- [Vite Template](https://github.com/mantinedev/vite-min-template) - Base template for project setup
 
 ## Getting Started
 
